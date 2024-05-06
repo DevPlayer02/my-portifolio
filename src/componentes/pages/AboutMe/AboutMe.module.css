@@ -15,15 +15,32 @@
 }
 
 .contents {
+    padding-bottom: 50px;
     border-top: 5px solid #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.contents:hover {
+    box-shadow: 8px 14px 14px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contents h3 {
     position: relative;
-    top: calc(-40px);
-    right: 5px;
-    left: 130px;
+    top: -40px;
+    left: 10px;
     border-bottom: 0;
+    margin-left: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.contents h3.active {
+    position: relative;
+    top: -55px;
+    font-size: 30px;
+    padding-bottom: 0;
 }
 
 .box {
@@ -31,6 +48,7 @@
     color: #FFFFFF;
     transition: all 0.4s;
     text-align: center;
+    padding: 0px 150px;
 }
 
 .box::before {
@@ -39,8 +57,9 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    top: calc(-42px);
-    right: 0;
-    left: 140px;
+    transform: translateX(-50%);
+    top: -58px;
+    left: 75px;
     background-color: #FFFFFF;
 }
+
