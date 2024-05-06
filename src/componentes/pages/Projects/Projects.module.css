@@ -1,0 +1,17 @@
+.projects {
+    margin: 10%;
+}
+
+.projects h1 {
+    margin-bottom: 50px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 95px;
+}
+
+.projects .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 150px;
+    margin: 10%;
+}

@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+} 
+
+.navbar a {
+    color: #FFFFFF !important;
+    text-decoration: none;
+}
+
+.links {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.links li {
+    margin-left: 100px;
+}
+
+.icons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.icons li {
+    margin-left: 20px;
+} 

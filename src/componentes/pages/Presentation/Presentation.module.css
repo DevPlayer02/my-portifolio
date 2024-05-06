@@ -1,0 +1,23 @@
+.presentation {
+    margin: 10%;
+}
+
+.presentation h1 {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 95px;
+}
+
+.presentation p {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+    color: #BCBCBC;
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+Button {
+    margin: 50px 10%;
+}

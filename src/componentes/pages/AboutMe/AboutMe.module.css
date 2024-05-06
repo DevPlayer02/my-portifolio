@@ -1,0 +1,46 @@
+.aboutMe {
+    margin: 20% 5%;
+}
+
+.aboutMe h1 {
+    margin-bottom: 125px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 95px;
+}
+
+.col {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.contents {
+    border-top: 5px solid #FFFFFF;
+}
+
+.contents h3 {
+    position: relative;
+    top: calc(-40px);
+    right: 5px;
+    left: 130px;
+    border-bottom: 0;
+}
+
+.box {
+    position: relative;
+    color: #FFFFFF;
+    transition: all 0.4s;
+    text-align: center;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: calc(-42px);
+    right: 0;
+    left: 140px;
+    background-color: #FFFFFF;
+}
