@@ -1,0 +1,16 @@
+.btn {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    padding: 20px 50px;
+    background: linear-gradient(270deg, #13ADC7 0%, #6978D1 66.67%, #945DD6 100%);
+    color: #e2e2e2;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(270deg, #945DD6 0%, #369ece 88.67%, #13ADC7 100%);
+    color: #FFFFFF;
+}
