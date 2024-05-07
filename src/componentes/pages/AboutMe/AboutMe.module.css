@@ -23,6 +23,7 @@
 
 .contents:hover {
     box-shadow: 8px 14px 14px 8px rgba(0, 0, 0, 0.2);
+    border-top: 5px solid #FFFFFF;
 }
 
 .contents h3 {
@@ -41,6 +42,10 @@
     top: -55px;
     font-size: 30px;
     padding-bottom: 0;
+    top: calc(-40px);
+    right: 5px;
+    left: 130px;
+    border-bottom: 0;
 }
 
 .box {
@@ -57,9 +62,8 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    transform: translateX(-50%);
-    top: -58px;
-    left: 75px;
+    top: calc(-42px);
+    right: 0;
+    left: 140px;
     background-color: #FFFFFF;
 }
-
