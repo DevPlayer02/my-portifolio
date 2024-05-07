@@ -42,7 +42,7 @@
     top: -55px;
     font-size: 30px;
     padding-bottom: 0;
-    top: calc(-40px);
+    top: calc(-55px);
     right: 5px;
     left: 130px;
     border-bottom: 0;
@@ -62,8 +62,8 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    top: calc(-42px);
+    top: calc(-59px);
     right: 0;
-    left: 140px;
+    left: 185px;
     background-color: #FFFFFF;
 }
