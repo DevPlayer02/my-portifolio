@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 80% auto;
     margin-top: 5%;
-    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .contacts {
